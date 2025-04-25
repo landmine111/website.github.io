@@ -1,0 +1,40 @@
+body {
+  background-color:MediumSeaGreen;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.game-img {
+  width: 100%;
+  max-width: 100%;
+  border: 3px solid darkred;
+}
+
+.game-title {
+  margin: 10px 0;
+  color: darkred;
+}
+
+.game-description {
+  border: 3px solid red;
+  padding: 20px;
+  text-align: left;
+  margin-top: 10px;
+  color: white;
+}
+
+.back-link {
+  margin-top: 20px;
+}
+
+.back-link a {
+  color: darkred;
+  text-decoration: none;
+}
