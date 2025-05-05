@@ -4,7 +4,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <hr color="green" size="5" width="50%">
+  <script src="script.js"></script>
+  <hr color="white" size="5" width="50%">
   <h1>Katalog Igrica</h1>
   <div class="catalog">
     <a href="igrice\minecraft.html"><img src="slike\minecraft.png"></a>
@@ -20,6 +21,12 @@
     <a href="index.html">1</a>
 	<a href="druga.html">2</a>
   </div>
-
+ <div class="request-form">
+  <h3>Predloži novu igru</h3>
+  <div class="form-inline">
+   <input type="text" id="ulaz" placeholder="Unesi ime igrice">
+   <button onclick="posalji()">Pošalji</button>
+  </div>
+</div>
 </body>
 </html>
