@@ -1,29 +1,30 @@
 body {
-  background-color:MediumSeaGreen;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(54, 69, 79, 1));
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Open Sans';
+
 }
 
 .game-container {
   max-width: 600px;
   margin: 20px auto;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Open Sans;
 }
 
 .game-img {
   width: 100%;
   max-width: 100%;
-  border: 3px solid darkred;
+  border: 3px solid white;
 }
 
 .game-title {
   margin: 10px 0;
-  color: darkred;
+  color: white;
 }
 
 .game-description {
-  border: 3px solid red;
+  border: 3px solid white;
   padding: 20px;
   text-align: left;
   margin-top: 10px;
@@ -31,10 +32,10 @@ body {
 }
 
 .back-link {
-  margin-top: 20px;
+  margin-top: 330px;
 }
 
 .back-link a {
-  color: darkred;
+  color: white;
   text-decoration: none;
 }
